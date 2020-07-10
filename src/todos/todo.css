@@ -1,0 +1,20 @@
+.todo-item {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    border: 1px solid;
+    border-color: #219bd9ff;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    background-color: rgb(245, 245, 245);
+    max-width: 25%;
+    justify-content: space-between;
+}
+
+.todo-item > div {
+    margin: 5px;
+}
+
+#add-button {
+    margin-left: 10px;
+}
